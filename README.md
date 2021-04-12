@@ -2,7 +2,6 @@
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/2buy2-com/Tools/#readme)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/2buy2-com/Tools//graphs/commit-activity)
-[![License: MIT](https://img.shields.io/github/license/2buy2-com/2buy2-development-tools)](https://github.com/2buy2-com/Tools//blob/master/LICENSE)
 [![Twitter: 2buy2](https://img.shields.io/twitter/follow/2buy2.svg?style=social)](https://twitter.com/2buy2)
 
 > Tools for the 2buy2 Development team.
