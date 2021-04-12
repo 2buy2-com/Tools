@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "a131a73e-4df4-4cd7-b6c3-9892d396155d",
+		"name": "SugarCRM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Accounts",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.expect(pm.response.code).to.equal(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 400ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "oauth-token",
+						"value": "WU7atLnITEU3j_kZbSJdJEc07HrPR6uzvv_yFju3k0yE9M8kkBDUPawf3pQ_sYR6kbRG__RDRnD2Qux8CHU5os-9AaPJncOc29QGD0VUiFwimj1_iw4hJxqNJZ1HQJr2FLbp2AYFdlyrDxFhBQ2ur4fHs9Fd-om0PTbxwPA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/{{rest}}/Accounts",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"{{rest}}",
+						"Accounts"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "tokenType",
+				"value": "bearer",
+				"type": "string"
+			},
+			{
+				"key": "accessToken",
+				"value": "WU7atLnITEU3j_kZFUN3Nycn6HzqUL-0vNDeDEu2h3LLz_8XgQeBPP8H9IM7nIxWrMRx7et4N3CTWNhmPkcH3fi_Nem_nsa1wKBDBn19yVk0kyJPuBETIByGDLZARrHTJu_H2AYFdlyrDxFhBT98udQH3ITj54FIKQ4YF9o",
+				"type": "string"
+			},
+			{
+				"key": "tokenName",
+				"value": "oauth-token",
+				"type": "string"
+			},
+			{
+				"key": "client_authentication",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "{{username}}",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "{{client_secret}}",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "{{client_id}}",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "{{url}}/{{rest}}/oauth2/token",
+				"type": "string"
+			},
+			{
+				"key": "headerPrefix",
+				"value": "",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "challengeAlgorithm",
+				"value": "S256",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "&dFxb3J%N778KvD^",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "password_credentials",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "oauth-token",
+			"value": ""
+		}
+	]
+}
