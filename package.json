@@ -9,7 +9,15 @@
     "type": "git",
     "url": "git+https://github.com/2buy2-com/Tools/.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "readme-md-generator": "^1.0.0"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
