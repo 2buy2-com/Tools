@@ -1,5 +1,5 @@
 {
-  "name": "2buy2 Development Tools",
+  "name": "2buy2-development-tools",
   "version": "0.0.1",
   "description": "Tools for the 2buy2 Development team.",
   "author": "2buy2",
@@ -8,5 +8,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/2buy2-com/Tools/.git"
+  },
+  "dependencies": {
+    "readme-md-generator": "^1.0.0"
   }
 }
