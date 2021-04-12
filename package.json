@@ -1,0 +1,12 @@
+{
+  "name": "2buy2 Development Tools",
+  "version": "0.0.1",
+  "description": "Tools for the 2buy2 Development team.",
+  "author": "2buy2",
+  "license": "MIT",
+  "homepage": "https://github.com/2buy2-com/Tools/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2buy2-com/Tools/.git"
+  }
+}
